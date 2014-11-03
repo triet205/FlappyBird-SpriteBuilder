@@ -20,7 +20,7 @@
     // delta is the time that has elapsed since the last time it was run. This is usually 1/60, but can be bigger if the game slows down
     timeSinceObstacle += delta;
     
-    if (timeSinceObstacle > 2.0f)
+    if (timeSinceObstacle > 3.0f)
     {
         [self addObstacle];
         
